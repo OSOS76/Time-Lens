@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --gold: #D4AF37;
+    --gold-light: #F4E3B2;
+    --gold-dark: #B8860B;
+    --sand: #F8F1E3;
+    --sand-2: #EFE0BF;
+    --cream: #FFF8EC;
+    --white: #FFFFFF;
+    --papyrus: #FFFCF3;
+    --text: #3A2D13;
+    --text-soft: #5E4B26;
+    --blue: #6CB4EE;
+    --blue-dark: #1F4E79;
+    --border: rgba(180, 128, 24, .28);
+    --shadow: rgba(180, 128, 24, .16);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    // box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background:
+        radial-gradient(circle at top left, rgba(244, 227, 178, .75), transparent 32%),
+        radial-gradient(circle at top right, rgba(108, 180, 238, .20), transparent 30%),
+        linear-gradient(180deg, #fffdf7 0%, #fff8ec 42%, #f8f1e3 100%);
+    color: var(--text);
+    overflow-x: hidden;
+}
+
