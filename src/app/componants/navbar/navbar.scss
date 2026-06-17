@@ -4,7 +4,7 @@
   padding: 0 30px;
 
   border-radius: 18px;
-  background: rgba(255, 255, 255, 0.745);
+  background: rgba(255, 255, 255, 0.059) ;
 
   backdrop-filter: blur(16px);
 
@@ -25,10 +25,11 @@
   display: flex;
   align-items: center;
   gap: 15px;
+  cursor: pointer;
 }
 
 .logo img {
-  width: 70px;
+  width: 60px;
   filter: drop-shadow(0 8px 16px rgba(180, 128, 24, 0.22));
 }
 
