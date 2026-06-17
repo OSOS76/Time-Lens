@@ -245,26 +245,17 @@
   font-weight: 600;
   color: var(--gold-dark);
   display: flex;
+  // background-color: #15120c;
+  // position: relative;
   width: fit-content;
+  height: 50px;
   margin: auto;
+  padding: 10px 20px;
   // margin-top: 40px;
-  animation: scrollMove 2s infinite;
   text-shadow: 4px 5px px rgb(0, 0, 0);
 }
 
-@keyframes scrollMove {
-  0% {
-    transform: translateY(0);
-  }
 
-  50% {
-    transform: translateY(-5px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
 
 /* ================= Responsive ================= */
 
