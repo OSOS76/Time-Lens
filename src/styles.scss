@@ -1,37 +1,36 @@
-@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import '@fortawesome/fontawesome-free/css/all.min.css';
 
 :root {
-    --gold: #D4AF37;
-    --gold-light: #F4E3B2;
-    --gold-dark: #B8860B;
-    --sand: #F8F1E3;
-    --sand-2: #EFE0BF;
-    --cream: #FFF8EC;
-    --white: #FFFFFF;
-    --papyrus: #FFFCF3;
-    --text: #3A2D13;
-    --text-soft: #5E4B26;
-    --blue: #6CB4EE;
-    --blue-dark: #1F4E79;
-    --border: rgba(180, 128, 24, .28);
-    --shadow: rgba(180, 128, 24, .16);
+  --gold: #d4af37;
+  --gold-light: #f4e3b2;
+  --gold-dark: #b8860b;
+  --sand: #f8f1e3;
+  --sand-2: #efe0bf;
+  --cream: #fff8ec;
+  --white: #ffffff;
+  --papyrus: #fffcf3;
+  --text: #3a2d13;
+  --text-soft: #5e4b26;
+  --blue: #6cb4ee;
+  --blue-dark: #1f4e79;
+  --border: rgba(180, 128, 24, 0.28);
+  --shadow: rgba(180, 128, 24, 0.16);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    // box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  // box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
   background: linear-gradient(180deg, #fff7db 0%, #fef6e6 42%, #fcf0d7 100%);
 
-    color: var(--text);
-    overflow-x: hidden;
+  color: var(--text);
+  overflow-x: hidden;
 }
-

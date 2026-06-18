@@ -2,7 +2,6 @@
   // border: 1px solid #f8e29000;
   padding: 100px 0;
   position: relative;
-  background: linear-gradient(180deg, #fff7db 0%, #fef6e6 42%, #fcf0d7 100%);
   box-shadow: 0px 0px 200px #fff7db;
 }
 
@@ -117,6 +116,7 @@
   color: var(--text);
   font-size: 15px;
   font-weight: 600;
+  max-width: 600px;
 }
 
 @media (max-width: 1200px) {

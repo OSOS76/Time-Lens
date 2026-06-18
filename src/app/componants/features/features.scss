@@ -1,11 +1,10 @@
 .features {
-  box-shadow: 0 -20px 400px rgba(180, 128, 24, 0.806);
-  box-shadow: 0 -20px 400px rgba(180, 128, 24, 0.806);
+  box-shadow: 0 0px 50px #fff7db;
   min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(180deg, #fff7db 0%, #fef6e6 42%, #fcf0d7 100%);
+  // background: linear-gradient(180deg, #fff7db 0%, #fef6e6 42%, #fcf0d7 100%);
 }
 .container {
   max-width: 1500px;
