@@ -28,7 +28,7 @@
 
 .features h2 {
   text-align: center;
-  font-size: 42px;
+  font-size: 54px;
   font-weight: 700;
   background: linear-gradient(90deg, #5a4016 20%, #b8860b 42%, #d4af37 72%, #b69425 100%);
 
@@ -55,7 +55,7 @@
 }
 
 .feature-card {
-  background: #fff4e0b9;
+  background: #ffe8c1b9;
   border: 1px solid #fcd289da;
   border-radius: 24px;
   padding: 35px 25px;
@@ -87,7 +87,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.5s;
+  transition: 0.8s;
 }
 
 .icon-box i {
@@ -98,7 +98,7 @@
 .feature-card h3 {
   font-size: 20px;
   margin-bottom: 12px;
-  color: var(text-soft);
+  color: var(--gold-dark);
   font-weight: 600;
 }
 
@@ -106,6 +106,7 @@
   color: var(--text-soft);
   line-height: 1.8;
   font-size: 15px;
+  font-weight: 600;
 }
 
 /* Responsive */
