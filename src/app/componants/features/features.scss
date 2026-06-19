@@ -1,6 +1,6 @@
 .features {
   box-shadow: 0 0px 50px #fff7db;
-  min-height: 80vh;
+  min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,6 +15,7 @@
   padding: 50px 0;
 }
 
+
 .section-tag {
   display: block;
   text-align: center;
@@ -22,7 +23,25 @@
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 1px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.section-tag i {
+  font-size: 10px;
+}
+
+.section-header h2 {
+  font-size: 4rem;
+  margin: 15px 0;
+  color: #332314;
+  font-weight: 700;
+}
+.title-line {
+    width: 170px;
+    height: 4px;
+    background: #c79015;
+    margin: 0 auto 25px;
+    border-radius: 50px;
 }
 
 .features h2 {

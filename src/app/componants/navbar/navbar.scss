@@ -52,7 +52,9 @@
   font-weight: 600;
   transition: 0.3s;
   position: relative;
+  text-transform: capitalize;
 }
+
 .custom-nav a::after {
   content: '';
   position: absolute;
@@ -94,6 +96,12 @@
 }
 
 /* Responsive */
+@media (max-width: 1120px) {
+  .custom-navbar {
+    padding: 0 10px;
+    width: 98%;
+  }
+}
 
 @media (max-width: 1054px) {
   .custom-navbar {
