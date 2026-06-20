@@ -1,5 +1,6 @@
 .team-section {
   padding: 100px 7%;
+  background: linear-gradient(180deg, #fff7db 0%, #fef6e6 42%, #fcf0d7 100%);
 }
 
 .section-header {
@@ -74,19 +75,18 @@
 }
 
 .osama {
-  transform: translateY(-30px);
+  transform: translateY(-20px);
 }
+
+
 
 .team-card img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   padding: 1px;
-
   object-fit: cover;
-
   border: 3px solid #d8ab3c;
-
   margin-bottom: 25px;
 }
 
