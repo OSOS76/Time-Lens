@@ -1,5 +1,5 @@
 .team-section {
-  // padding: 100px 7%;
+  // padding: 100px;
   // background: linear-gradient(180deg, #fff7db 0%, #fef6e6 42%, #fcf0d7 100%);
 }
 
@@ -47,7 +47,7 @@
 }
 
 .team-grid {
-  display: grid;
+ display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 25px;
 }
