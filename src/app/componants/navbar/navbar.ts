@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterModule, Routes } from '@angular/router';
-import { routes } from '../../app.routes';
+import { RouterLink, RouterModule } from '@angular/router';
+// import { routes } from '../../app.routes';
 
 
 

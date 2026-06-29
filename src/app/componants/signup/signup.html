@@ -1,0 +1,63 @@
+<div class="login-page">
+  <div class="login-card">
+    <div class="glass-box">
+      <div class="login-header">
+        <div class="login-icon">
+          <i class="fa-solid fa-user-plus"></i>
+        </div>
+
+        <h2>Create Account</h2>
+
+        <p>Join us and start your journey</p>
+      </div>
+
+      <form (ngSubmit)="register()" class="login-form">
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Full Name</mat-label>
+          <mat-icon matPrefix>person</mat-icon>
+
+          <input matInput [(ngModel)]="name" name="fullName" />
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Email Address</mat-label>
+          <mat-icon matPrefix>email</mat-icon>
+
+          <input matInput type="email" [(ngModel)]="email" name="email" />
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Phone</mat-label>
+
+          <mat-icon matPrefix>phone</mat-icon>
+
+          <input matInput [(ngModel)]="phone" name="phone" />
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Password</mat-label>
+          <mat-icon matPrefix>lock</mat-icon>
+
+          <input matInput type="password" [(ngModel)]="password" name="password" />
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Confirm Password</mat-label>
+          <mat-icon matPrefix>verified_user</mat-icon>
+
+          <input matInput type="password" [(ngModel)]="confirmPassword" name="confirmPassword" />
+        </mat-form-field>
+
+        <button mat-raised-button type="submit" class="login-btn">
+          <i class="fa-solid fa-user-plus"></i>
+          Create Account
+        </button>
+
+        <div class="register-section">
+          <span>Already have an account?</span>
+
+          <a routerLink="/login"> Login </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

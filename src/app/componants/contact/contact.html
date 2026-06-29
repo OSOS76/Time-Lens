@@ -1,6 +1,6 @@
-<section class="contact-section">
+<section class="contact-section" id="contact">
   <div class="section-header">
-    <span class="section-tag"> GET IN TOUCH </span>
+    <span class="section-tag">GET IN TOUCH</span>
 
     <h2>Contact Us</h2>
 
@@ -23,35 +23,50 @@
         <h3>Send us a Message</h3>
       </div>
 
-      <form>
+      <form (ngSubmit)="sendMessage()">
         <div class="input-row">
           <mat-form-field appearance="fill">
             <mat-label>Your Name</mat-label>
+
             <mat-icon matPrefix>person</mat-icon>
-            <input matInput />
+
+            <input matInput [(ngModel)]="contactData.name" name="name" required />
           </mat-form-field>
 
           <mat-form-field appearance="fill">
             <mat-label>Your Email</mat-label>
+
             <mat-icon matPrefix>email</mat-icon>
-            <input matInput type="email" />
+
+            <input matInput type="email" [(ngModel)]="contactData.email" name="email" required />
           </mat-form-field>
         </div>
 
         <mat-form-field appearance="fill" class="full-width">
           <mat-label>Subject</mat-label>
-          <mat-icon matPrefix>sell</mat-icon>
-          <input matInput />
+
+          <mat-icon matPrefix> sell </mat-icon>
+
+          <input matInput [(ngModel)]="contactData.subject" name="subject" required />
         </mat-form-field>
 
         <mat-form-field appearance="fill" class="full-width">
           <mat-label>Your Message</mat-label>
-          <mat-icon matPrefix>edit_note</mat-icon>
-          <textarea matInput rows="7"></textarea>
+
+          <mat-icon matPrefix> edit_note </mat-icon>
+
+          <textarea
+            matInput
+            rows="7"
+            [(ngModel)]="contactData.message"
+            name="message"
+            required
+          ></textarea>
         </mat-form-field>
 
-        <button mat-raised-button class="send-btn">
+        <button mat-raised-button class="send-btn" type="submit">
           <i class="fa-solid fa-paper-plane"></i>
+
           Send Message
         </button>
       </form>
@@ -75,6 +90,7 @@
 
           <div>
             <h4>Trusted Support</h4>
+
             <p>Your satisfaction is our priority</p>
           </div>
         </div>
@@ -86,6 +102,7 @@
 
           <div>
             <h4>Let's Collaborate</h4>
+
             <p>Great ideas start with a conversation</p>
           </div>
         </div>
@@ -110,7 +127,8 @@
 
         <div>
           <h4>Location</h4>
-          <p>Cairo, Egypt</p>
+
+          <p>Port Said, Egypt</p>
         </div>
       </div>
 
@@ -121,18 +139,8 @@
 
         <div>
           <h4>Email</h4>
-          <p>team@example.com</p>
-        </div>
-      </div>
 
-      <div class="info-item">
-        <div class="small-icon">
-          <i class="fa-solid fa-phone"></i>
-        </div>
-
-        <div>
-          <h4>Phone</h4>
-          <p>+</p>
+          <p>timelens.info@gmail.com</p>
         </div>
       </div>
 
@@ -143,31 +151,10 @@
 
         <div>
           <h4>Website</h4>
-          <p>www.example.com</p>
+
+          <p>time-lens-dfxq.vercel.app</p>
         </div>
-      </div>
-
-      <h4 class="follow-title">Follow Us</h4>
-
-      <div class="social-links">
-        <a href="#">
-          <i class="fa-brands fa-linkedin-in"></i>
-        </a>
-
-        <a href="#">
-          <i class="fa-brands fa-github"></i>
-        </a>
-
-        <a href="#">
-          <i class="fa-brands fa-x-twitter"></i>
-        </a>
-
-        <a href="#">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
       </div>
     </div>
   </div>
-
-  <!-- Bottom Features -->
 </section>
